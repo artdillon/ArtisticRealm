@@ -1,15 +1,6 @@
 #-*- coding: UTF-8 -*-
 import turtle as t
- 
-"""
-=================================================
-@Project ->Adversity Awake 草莓熊系列
-@类别     : 草莓熊->草莓熊之3
-@Author  : 逆境清醒
-@Date    : 2022/11/10 1:46
-@Desc    :https://blog.csdn.net/weixin_69553582
-=================================================
-"""
+
 # 设置背景颜色，窗口位置以及大小
  
 t.colormode(255)# 颜色模式
@@ -17,7 +8,7 @@ t.speed(0)
 t.screensize(850,760,"white")#画布大小背景颜色
 t.setup(width=850, height=760,startx=None, starty=None) #绘图窗口的大小和起始坐标
 #t.bgpic("ditu3.gif")
-t.title("逆境清醒草莓熊！")#设置绘图窗口的标题
+t.title("早上要清醒草莓熊！")#设置绘图窗口的标题
 t.resizemode('noresize')  #大小调整模式:auto,user,noresize
 t.tracer(1)   
  
@@ -653,13 +644,13 @@ t.penup()
 t.end_fill()
 t.color('#987824')
 t.penup()
-t.goto(260,60)
-t.pendown()
-t.write("愿\n你\n没\n有\n烦\n恼\n",align="center",font=("黑体",20,"normal"))
-t.penup()
 t.goto(230,60)
 t.pendown()
-t.write("常\n少\n毅\n你\n居\n然\n不\n信",align="center",font=("黑体",20,"normal"))
+t.write("早\n八\n人\n\n早\n八\n魂\n",align="center",font=("黑体",20,"normal"))
+t.penup()
+t.goto(260,60)
+t.pendown()
+t.write("早\n八\n都\n是\n人\n上\n人\n",align="center",font=("黑体",20,"normal"))
 t.penup()
 t.goto(290,183)
 t.pendown()
